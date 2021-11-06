@@ -123,7 +123,16 @@
                     <li>
                       <article>
                         <div class="img">
-                          <a href="item.html"><img src="img/camp_6.jpg" alt="" class="img_top_item"></a>
+                          <a href="/item"><img src="{{ asset('camp.html.css/img/camp_1.jpg') }}" alt="" class="img_top_item"></a>
+                        </div>
+                        <div class="thum_text">
+                          <p class="thum_p">ここにタイトルが記載されます</p>
+                        </div>
+                      </article>
+                    </li>
+                    <li>
+                        <div class="img">
+                          <a href="/item"><img src="{{ asset('camp.html.css/img/camp_3.jpg') }}" alt="" class="img_top_item"></a>
                         </div>
                         <div class="thum_text">
                           <p class="thum_p">ここにタイトルが記載されます</p>
@@ -133,7 +142,7 @@
                     <li>
                       <article>
                         <div class="img">
-                          <a href="item.html"><img src="img/camp_6.jpg" alt="" class="img_top_item"></a>
+                          <a href="/item"><img src="{{ asset('camp.html.css/img/camp_4.jpg') }}" alt="" class="img_top_item"></a>
                         </div>
                         <div class="thum_text">
                           <p class="thum_p">ここにタイトルが記載されます</p>
@@ -143,7 +152,7 @@
                     <li>
                       <article>
                         <div class="img">
-                          <a href="item.html"><img src="img/camp_6.jpg" alt="" class="img_top_item"></a>
+                          <a href="/item"><img src="{{ asset('camp.html.css/img/camp_5.jpg') }}" alt="" class="img_top_item"></a>
                         </div>
                         <div class="thum_text">
                           <p class="thum_p">ここにタイトルが記載されます</p>
@@ -153,17 +162,7 @@
                     <li>
                       <article>
                         <div class="img">
-                          <a href="item.html"><img src="img/camp_6.jpg" alt="" class="img_top_item"></a>
-                        </div>
-                        <div class="thum_text">
-                          <p class="thum_p">ここにタイトルが記載されます</p>
-                        </div>
-                      </article>
-                    </li>
-                    <li>
-                      <article>
-                        <div class="img">
-                          <a href="item.html"><img src="img/camp_6.jpg" alt="" class="img_top_item"></a>
+                          <a href="/item"><img src="{{ asset('camp.html.css/img/camp_6.jpg') }}" alt="" class="img_top_item"></a>
                         </div>
                         <div class="thum_text">
                           <p class="thum_p">ここにタイトルが記載されます</p>
@@ -196,21 +195,9 @@
                     <!--複製-->
                     <li>
                       <article>
-                        <div class="img">
-                          <img src="img/camp_3.jpg" alt="" class="img_top_item">
-                        </div>
-                        <div class="thum_text">
-                          <p class="thum_p">ここにタイトルが記載されます
-                            ここにタイトルが記載されます
-                          </p>
-                        </div>
-                      </article>
-                    </li>
-                    <li>
-                      <article>
-                        <div class="img">
-                          <img src="img/camp_2.jpg" alt="" class="img_top_item">
-                        </div>
+                          <div class="img">
+                            <a href="/item"><img src="{{ asset('camp.html.css/img/camp_3.jpg') }}" alt="" class="img_top_item"></a>
+                          </div>
                         <div class="thum_text">
                           <p class="thum_p">ここにタイトルが記載されます</p>
                         </div>
@@ -218,9 +205,9 @@
                     </li>
                     <li>
                       <article>
-                        <div class="img">
-                          <img src="img/camp_5.jpg" alt="" class="img_top_item">
-                        </div>
+                          <div class="img">
+                            <a href="/item"><img src="{{ asset('camp.html.css/img/camp_6.jpg') }}" alt="" class="img_top_item"></a>
+                          </div>
                         <div class="thum_text">
                           <p class="thum_p">ここにタイトルが記載されます</p>
                         </div>
@@ -228,9 +215,9 @@
                     </li>
                     <li>
                       <article>
-                        <div class="img">
-                          <img src="img/camp_7.jpg" alt="" class="img_top_item">
-                        </div>
+                          <div class="img">
+                            <a href="/item"><img src="{{ asset('camp.html.css/img/camp_8.jpg') }}" alt="" class="img_top_item"></a>
+                          </div>
                         <div class="thum_text">
                           <p class="thum_p">ここにタイトルが記載されます</p>
                         </div>
@@ -238,20 +225,50 @@
                     </li>
                     <li>
                       <article>
-                        <div class="img">
-                          <img src="img/camp_6.jpg" alt="" class="img_top_item">
-                        </div>
+                          <div class="img">
+                            <a href="/item"><img src="{{ asset('camp.html.css/img/camp_3.jpg') }}" alt="" class="img_top_item"></a>
+                          </div>
                         <div class="thum_text">
-                          <p class="thum_p">ここにタイトルが記
-                            載されます</p>
+                          <p class="thum_p">ここにタイトルが記載されます</p>
                         </div>
                       </article>
                     </li>
-                    <li>
+
+                                        <li>
                       <article>
-                        <div class="img">
-                          <img src="img/camp_6.jpg" alt="" class="img_top_item">
+                          <div class="img">
+                            <a href="/item"><img src="{{ asset('camp.html.css/img/camp_1.jpg') }}" alt="" class="img_top_item"></a>
+                          </div>
+                        <div class="thum_text">
+                          <p class="thum_p">ここにタイトルが記載されます</p>
                         </div>
+                      </article>
+                    </li>
+                                        <li>
+                      <article>
+                          <div class="img">
+                            <a href="/item"><img src="{{ asset('camp.html.css/img/camp_7.jpg') }}" alt="" class="img_top_item"></a>
+                          </div>
+                        <div class="thum_text">
+                          <p class="thum_p">ここにタイトルが記載されます</p>
+                        </div>
+                      </article>
+                    </li>
+                                        <li>
+                      <article>
+                          <div class="img">
+                            <a href="/item"><img src="{{ asset('camp.html.css/img/camp_5.jpg') }}" alt="" class="img_top_item"></a>
+                          </div>
+                        <div class="thum_text">
+                          <p class="thum_p">ここにタイトルが記載されます</p>
+                        </div>
+                      </article>
+                    </li>
+                                        <li>
+                      <article>
+                          <div class="img">
+                            <a href="/item"><img src="{{ asset('camp.html.css/img/camp_2.jpg') }}" alt="" class="img_top_item"></a>
+                          </div>
                         <div class="thum_text">
                           <p class="thum_p">ここにタイトルが記載されます</p>
                         </div>

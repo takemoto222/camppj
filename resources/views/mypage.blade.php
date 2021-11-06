@@ -19,7 +19,7 @@
   <main class="mypage_main">
     <div class="profile">
       <div class="my_img">
-        <img src="img/camp_6.jpg" class="my_page_img">
+        <img src="{{ asset('camp.html.css/img/camp_6.jpg') }}" class="my_page_img">
       </div>
       <div class="my_name_ev">
         <h2 class="my_name">ユーザー名</h2>
