@@ -9,7 +9,7 @@ class User extends Model
 {
     public function getDetail()
     {
-        $txt = 'ID:' . $this->id . ' ' . $this->name . '(' . $this->age .  '才' . ') ' . $this->nationality;
+        $txt = 'ID:' . $this->id . $this->name;
         return $txt;
     }
 }

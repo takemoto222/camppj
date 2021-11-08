@@ -26,10 +26,11 @@
         </nav>
       </header>
       <!--編集画面　画像　名前-->
+      <!--この内容をmypage.blade.phpに反映させたい-->
       <div class="my_img_name_box">
         <div class="my_img_edit">
           <div class="my_img_box">
-            <img src="" class="my_img">
+            <img src="{{}}" alt="イメージ" class="my_img">
           </div>
         </div>
         <div class="my_name_edit">
@@ -38,22 +39,25 @@
       </div>
 
       <!--自己紹介 テキストエリア-->
+      <!--この内容をmypage.blade.phpに反映させたい-->
       <div class="pro_textarea_box">
         <form class="pro_textarea" action="" method="">
-          <textarea name="profile" rows="20" clos="100%" class="profile_area"></textarea>
+          <textarea name="profile" rows="20" clos="100%" placeholder="自己紹介文" class="profile_area"></textarea>
           <!--メール　住所　編集ホーム-->
+          <!--この内容は反映させない-->
           <div class="edit_text">
             <label class="label"></label>
             <input type="text" placeholder="住所">
           </div>
-          <!--複製-->
+          <!--この内容は反映させない-->
           <div class="edit_text">
             <label class="label"></label>
             <input type="text" placeholder="メールアドレス">
           </div>
           <!--送信-->
+          <!--送信した内容をmypage.blade.phpに反映させたい-->
           <div class="btn">
-            <button type="submit" class="btn btn-primary"><a href="/mypage_comp" class="send_button_a">登録</a></button>
+            <a href="/mypage_comp" class="send_button_a">登録</a>
           </div>
         </form>
       </div>

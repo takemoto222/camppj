@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Support\Facades\DB;
 
 class CampController extends Controller
 {
@@ -14,17 +15,19 @@ class CampController extends Controller
 
 
     //マイページ
-        public function mypage()
+    public function mypage(Request $request)
     {
-        return view('mypage');
+        $items = User::all();
+        $items = DB::table('authors')->get();
+        return view('mypage', ['items' => $items]);
     }
     //マイページ編集
-        public function mypage_edit()
+    public function mypage_edit(Request $request)
     {
         return view('mypage_edit');
     }
     //マイページ編集されました
-        public function mypage_comp()
+    public function mypage_comp()
     {
         return view('mypage_comp');
     }
@@ -66,14 +69,14 @@ class CampController extends Controller
         return view('transaction_list');
     }
 
-//お問い合わせ
-        public function contact()
+    //お問い合わせ
+    public function contact()
     {
         return view('contact');
     }
 
     //お問い合わせ
-        public function contact_send()
+    public function contact_send()
     {
         return view('contact_send');
     }
@@ -95,7 +98,7 @@ class CampController extends Controller
     }
 
     //ログイン
-        public function login()
+    public function login()
     {
         return view('login');
     }
